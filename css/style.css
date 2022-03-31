@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+body {
+  font-family: 'Josefin Sans', sans-serif !important;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.div-center {
+  margin: 0 auto;
+  border: 1px solid #8b3d3d;
+  padding: 0 !important;
+}
+
+#main {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+#header {
+  background: #8b3d3d !important;
+  color: #fff;
+  height: auto;
+  padding: 25px;
+}
+
+h1 {
+  line-height: 51px;
+  font-size: 38px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 17px;
+}
+
+#content {
+  min-height: 300px;
+  padding: 50px;
+}
+
+form {
+  margin: 0 0 10px;
+}
+
+#upload_btn {
+  background: #8b3d3d;
+  border: 1px solid #8b3d3d;
+  outline: 0;
+  padding: 8px 15px;
+  margin: 0 0 10px;
+  margin-top: 0px;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 0;
+  cursor: pointer;
+  width: 30%;
+  margin-top: 25px;
+}
+
+#upload_btn:hover {
+  background: transparent;
+  color: #8b3d3d;
+  transition: all 0.5s ease;
+}
+
+.message {
+  color: #000;
+  background-color: #e7e7e7;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.message.success {
+  color: #000;
+  background-color: #b0e9b0;
+  border: 1px solid #6dce6d;
+}
+
+.message.error {
+  color: #fff;
+  background-color: #f37d7d;
+  border: 1px solid #e91919;
+}
